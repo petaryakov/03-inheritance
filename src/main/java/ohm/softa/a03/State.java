@@ -7,6 +7,8 @@ public abstract class State {
     private int time = 0;
     final private int duration;
 
+    int timree;
+
     protected State(int duration){
         this.duration = duration;
     }
